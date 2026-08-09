@@ -3,6 +3,7 @@ import MouseMoveEffect from "@/components/mouse-move-effect";
 import Hero from "@/components/hero";
 import GlassmorphismCard from "@/components/glassmorphism-card";
 import ProjectGrid from "@/components/project-grid";
+import { Clapperboard, Sparkles, LayoutGrid } from "lucide-react";
 import {
   getVideoCategoriesWithCountIncludingAll,
   getAllVideoProjectsFlattened
@@ -18,6 +19,60 @@ export default function HomePage() {
       <MouseMoveEffect />
 
       <Hero />
+
+      {/* Introduction Section */}
+      <section className="py-20 px-4 sm:px-6 relative">
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white tracking-tight">
+            A Bit <span className="text-blue-500">About Me</span>
+          </h2>
+          <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto font-light leading-relaxed mb-12">
+            I'm a video editor and graphic designer with over a year of hands-on
+            experience in{" "}
+            <span className="text-white font-medium">Adobe Premiere Pro</span> and{" "}
+            <span className="text-white font-medium">After Effects</span>. My
+            roots in graphic design shape the way I edit — a sharp eye for color,
+            composition, and detail that turns raw footage into visuals with
+            genuine impact. Along the way, I've completed{" "}
+            <span className="text-blue-400 font-medium">multiple projects</span>{" "}
+            spanning YouTube content, social media, and branded video work,
+            always focused on telling a story that keeps people watching.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <GlassmorphismCard className="p-6 flex flex-col items-center text-center">
+              <div className="p-3 rounded-xl bg-blue-500/10 mb-4">
+                <Clapperboard className="text-blue-400" size={24} />
+              </div>
+              <h3 className="text-white font-semibold mb-1">1+ Year Experience</h3>
+              <p className="text-gray-400 text-sm">
+                Premiere Pro & After Effects
+              </p>
+            </GlassmorphismCard>
+
+            <GlassmorphismCard className="p-6 flex flex-col items-center text-center">
+              <div className="p-3 rounded-xl bg-purple-500/10 mb-4">
+                <Sparkles className="text-purple-400" size={24} />
+              </div>
+              <h3 className="text-white font-semibold mb-1">Graphic Design Background</h3>
+              <p className="text-gray-400 text-sm">
+                A trained eye for visual storytelling
+              </p>
+            </GlassmorphismCard>
+
+            <GlassmorphismCard className="p-6 flex flex-col items-center text-center">
+              <div className="p-3 rounded-xl bg-emerald-500/10 mb-4">
+                <LayoutGrid className="text-emerald-400" size={24} />
+              </div>
+              <h3 className="text-white font-semibold mb-1">Multiple Projects Delivered</h3>
+              <p className="text-gray-400 text-sm">
+                Across YouTube, social, and brands
+              </p>
+            </GlassmorphismCard>
+          </div>
+        </div>
+      </section>
 
       {/* Projects Section */}
       <section id="projects" className="py-20 px-4 sm:px-6">
