@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "itsniloy",
+      "name": "Manav",
       "dependencies": {
         "@emotion/is-prop-valid": "latest",
         "@hookform/resolvers": "^3.10.0",

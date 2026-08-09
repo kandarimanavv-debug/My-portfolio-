@@ -23,7 +23,7 @@ export const EmailTemplate = ({
   message,
   projectType = "Not specified",
   timeline = "Not specified",
-  yourName = "Niloy Bhowmick",
+  yourName = "Manav",
 }: EmailTemplateProps) => (
   <Html>
     <Head />
@@ -83,7 +83,7 @@ export const EmailTemplate = ({
             system.
           </Text>
           <Text style={footerLink}>
-            <a href="https://www.itsniloy.me" style={footerLinkStyle}>
+            <a href={process.env.NEXT_PUBLIC_SITE_URL || "https://www.linkedin.com/in/manavkandari"} style={footerLinkStyle}>
               Visit Your Portfolio
             </a>
           </Text>

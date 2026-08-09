@@ -28,13 +28,13 @@ export default function HomePage() {
 
             <h2 className="text-5xl md:text-7xl font-bold mb-8 text-white tracking-tight relative z-10">
               <span className="bg-gradient-to-r from-white via-blue-100 to-gray-400 bg-clip-text text-transparent">
-                My Video Projects
+                Video Projects
               </span>
             </h2>
-            <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">
-              From smooth transitions to precise audio syncing and dynamic
-              animations — I focus on making your content not just polished, but
-              <span className="text-blue-400 font-medium"> powerful</span>.
+            <p className="text-gray-350 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">
+             From long-form storytelling to short-form content
+             I create videos that capture attention, connect with audiences, and leave a
+              <span className="text-blue-400 font-medium"> lasting impression</span>.
             </p>
           </div>
 
@@ -81,8 +81,8 @@ export default function HomePage() {
                 icon: "🎨",
               },
               {
-                title: "Logo Animation",
-                description: "Professional branding elements that stand out.",
+                title: "Storytelling",
+                description: "Professional storytelling that connect with audience.",
                 icon: "🏷️",
               },
               {

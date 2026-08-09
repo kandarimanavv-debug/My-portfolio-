@@ -51,8 +51,7 @@ export default function Hero() {
                         transition={{ duration: 1, ease: [0.25, 1, 0.5, 1], delay: 0.1 }}
                         className="block w-full bg-gradient-to-b from-white via-white/90 to-white/40 bg-clip-text text-transparent drop-shadow-sm pb-2"
                     >
-                        CINEMATIC
-                    </m.span>
+                      VIDEO                    </m.span>
                     <m.span
                         initial={{ opacity: 0, y: 40, filter: "blur(10px)" }}
                         animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
@@ -70,7 +69,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.6, ease: [0.25, 1, 0.5, 1] }}
                     className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto font-light leading-relaxed mb-12 sm:mb-16 md:px-0"
                 >
-                    Turning raw footage into visual stories — with style, precision, and a touch of <span className="text-white font-medium drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]">cinematic magic</span>.
+                    Transforming ideas into compelling visuals - with creativity, precision, and a passion for <span className="text-white font-medium drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]">visual storytelling</span>.
                 </m.p>
 
                 {/* Buttons */}

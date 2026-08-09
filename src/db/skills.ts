@@ -12,11 +12,11 @@ import {
 
 export const videoEditingSkills = [
   {
-    name: "DaVinci Resolve",
-    image_link: "/tools/DaVinci_Resolve_Studio.png",
+    name: "Adobe Illustrator",
+    image_link: "/tools/illustrator_5611037.png",
     icon: Film,
     description:
-      "Professional color grading, editing, and audio post-production",
+      "Designing clean, Scalable graphics with purpose and precision.",
     color: "text-orange-400",
   },
   {
@@ -24,28 +24,28 @@ export const videoEditingSkills = [
     image_link: "/tools/Adobe_Premiere_Pro_CC.png",
     icon: Scissors,
     description:
-      "Advanced video editing, multicam sync, and workflow optimization",
+      "Advanced Video Editing, Multicam Sync and Workflow Optimization.",
     color: "text-purple-400",
   },
   {
-    name: "After Effects",
+    name: "Adobe After Effects",
     image_link: "/tools/Adobe_After_Effects_CC.png",
     icon: Sparkles,
-    description: "Motion graphics, visual effects, and advanced animations",
+    description: "Motion graphics, Visual effects and Animations",
     color: "text-blue-400",
   },
   {
     name: "Adobe Photoshop",
     image_link: "/tools/Adobe_Photoshop_CC.png",
     icon: Palette,
-    description: "Thumbnail design, graphics creation, and image manipulation",
+    description: "Posts Designs, Graphics creation, and Image manipulation",
     color: "text-cyan-400",
   },
   {
     name: "Adobe Audition",
     image_link: "/tools/Adobe_Audition_CC.png",
     icon: Volume2,
-    description: "Audio editing, noise reduction, and sound enhancement",
+    description: "Audio editing, Noise reduction, and Sound enhancement",
     color: "text-green-400",
   },
 ];
@@ -54,44 +54,33 @@ export const specializations = [
   {
     title: "YouTube Content Creation",
     skills: [
-      "Retention Editing",
-      "Thumbnail Design",
-      "SEO Optimization",
-      "Analytics Understanding",
+      "Documentary Editing",
+      "Shorts",
+    ,
+      ,
     ],
     icon: "🎬",
     description:
-      "Specialized in creating engaging YouTube content that keeps viewers watching",
+      "Specialized in creating engaging YouTube content that keeps viewers watching.",
   },
   {
     title: "Social Media Videos",
     skills: [
       "Short-form Content",
-      "Vertical Video",
-      "Platform Optimization",
-      "Viral Techniques",
+      "Google/Meta Ads Video",
+      ,
+      ,
     ],
     icon: "📱",
     description:
-      "Expert in creating content optimized for Instagram, TikTok, and other platforms",
+      "Expert in creating content optimized for Instagram, Facebook, and other platforms.",
   },
-  {
-    title: "Corporate Videos",
-    skills: [
-      "Professional Presentation",
-      "Brand Consistency",
-      "Clean Aesthetics",
-      "Message Clarity",
-    ],
-    icon: "🏢",
-    description:
-      "Creating polished corporate content that communicates effectively",
-  },
+  ,
   {
     title: "Educational Content",
     skills: [
-      "Screen Recording",
-      "Tutorial Structure",
+      "Social Awareness",
+      "Educational Awareness",
       "Clear Explanations",
       "Interactive Elements",
     ],
@@ -99,29 +88,7 @@ export const specializations = [
     description:
       "Specialized in making complex topics easy to understand through video",
   },
-  {
-    title: "Motion Graphics",
-    skills: [
-      "2D Animation",
-      "Logo Animation",
-      "Lower Thirds",
-      "Kinetic Typography",
-    ],
-    icon: "✨",
-    description: "Creating eye-catching animations that enhance storytelling",
-  },
-  {
-    title: "Color Grading",
-    skills: [
-      "Cinematic Looks",
-      "Color Matching",
-      "Mood Creation",
-      "Technical Correction",
-    ],
-    icon: "🎨",
-    description:
-      "Professional color work that gives videos a polished, cinematic feel",
-  },
+  
 ];
 
 export const achievements = [
@@ -140,7 +107,7 @@ export const achievements = [
     color: "text-green-400",
   },
   {
-    title: "3+ Years Experience",
+    title: "1 Years Experience",
     description:
       "Professional video editing experience with continuous skill development",
     icon: Camera,
@@ -149,7 +116,7 @@ export const achievements = [
   {
     title: "Fast Turnaround",
     description:
-      "Known for delivering high-quality work within tight deadlines",
+      "Delivering high-quality work within tight deadlines",
     icon: Zap,
     color: "text-purple-400",
   },

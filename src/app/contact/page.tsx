@@ -96,10 +96,10 @@ export default function ContactPage() {
                   <div>
                     <p className="text-gray-400 text-sm">Email</p>
                     <a
-                      href="mailto:contact.niloybhowmick@gmail.com"
+                      href="mailto:kandarimanavv@gmail.com"
                       className="text-white hover:text-blue-400 transition-colors"
                     >
-                      contact.niloybhowmick@gmail.com
+                      kandarimanavv@gmail.com
                     </a>
                   </div>
                 </div>
@@ -111,25 +111,17 @@ export default function ContactPage() {
                   <div>
                     <p className="text-gray-400 text-sm">WhatsApp</p>
                     <a
-                      href="https://wa.me/+8801580385556"
+                      href="https://wa.me/+91 9654275166"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white hover:text-green-400 transition-colors"
                     >
-                      +88 (015) 803-85556
+                      +91 9654275166
                     </a>
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-4">
-                  <div className="bg-purple-600 p-3 rounded-lg">
-                    <MapPin className="text-white" size={20} />
-                  </div>
-                  <div>
-                    <p className="text-gray-400 text-sm">Location</p>
-                    <p className="text-white">Available Worldwide (Remote)</p>
-                  </div>
-                </div>
+                
 
                 <div className="flex items-center space-x-4">
                   <div className="bg-orange-600 p-3 rounded-lg">
@@ -310,7 +302,7 @@ export default function ContactPage() {
                 <p className="text-gray-400 text-sm text-center">
                   Prefer to chat directly? Reach out on{" "}
                   <a
-                    href="https://wa.me/+8801580385556"
+                    href="https://wa.me/+919654275166"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-green-400 hover:text-green-300"

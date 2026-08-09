@@ -55,8 +55,7 @@ export default function SkillsPage() {
             </span>
           </h1>
           <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto font-light leading-relaxed relative z-10">
-            With years of experience in video editing and motion graphics, I
-            bring technical expertise and creative vision to every project.
+            With years of experience in video editing, I bring technical expertise and creative vision to every project.
             Here's what I can do for you.
           </p>
         </m.div>

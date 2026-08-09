@@ -16,27 +16,23 @@ export default function Footer() {
   const socialLinks = [
     {
       name: "YouTube",
-      href: "https://www.youtube.com/@itsniloybhowmick",
+      href: "https://www.youtube.com/@Kandari_Manav",
       icon: Youtube,
     },
     {
       name: "Instagram",
-      href: "https://instagram.com/its.niloybhowmick",
+      href: "https://www.instagram.com/graphicx_boy/",
       icon: Instagram,
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/niloy-bhowmick",
+      href: "https://www.linkedin.com/in/manavkandari/",
       icon: Linkedin,
     },
-    {
-      name: "Twitter",
-      href: "#",
-      icon: Twitter,
-    },
+    
     {
       name: "Email",
-      href: "mailto:contact.niloybhowmick@gmail.com",
+      href: "mailto:.kandarimanavv@gmail.com",
       icon: Mail,
     },
   ];
@@ -47,11 +43,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12">
           {/* Brand */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-              Niloy Bhowmick
+            <h3 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-purple-200 bg-clip-text text-transparent">
+              Manav Kandari
             </h3>
-            <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-              Video Editor and Motion Graphics Designer passionate about
+            <p className="text-gray-200 text-sm leading-relaxed max-w-xs">
+              Video Editor and Graphic Designer passionate about
               creating visual stories with style, precision, and cinematic
               magic.
             </p>
@@ -119,14 +115,14 @@ export default function Footer() {
 
         <div className="border-t border-white/5 mt-16 pt-8 text-center">
           <p className="text-gray-500 text-sm flex items-center justify-center gap-1.5">
-            Made with <Heart className="text-red-500 fill-red-500/20" size={14} /> by{" "}
+            Made with 
             <a
-              href="https://www.linkedin.com/in/mdmarufsarker/"
+              href="https://www.linkedin.com/in/manavkandari/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors underline decoration-dotted underline-offset-4"
             >
-              Md. Maruf Sarker
+              Manav
             </a>{" "}
             © {currentYear}
           </p>
